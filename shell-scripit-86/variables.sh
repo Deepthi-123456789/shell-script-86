@@ -4,5 +4,5 @@ b=siva
 
 echo "$a :: hi $b how are you?"
 echo "$b :: fine, how are you?"
-ech0 "$a :: fine,what are you learning?"
+echo "$a :: fine,what are you learning?"
 echo "$b :: learning shell scrip"
