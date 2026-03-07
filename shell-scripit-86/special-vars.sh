@@ -6,5 +6,6 @@ echo "All arguments passed is script:$@"
 echo "All arguments passed is script:$*"
 echo "for script name:$0"
 echo "no.of arguments passed in script:$#"
-echo "ext status of previous cmd:$?"
+echo "ext status of previous cmd:$?" # 0 - sucess, 1 - failure
+echo "for process instance id pid:$$"
 
