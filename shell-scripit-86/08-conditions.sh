@@ -17,7 +17,7 @@ echo "enter a number:"
 read num
 echo "number is $num"
 
-if [ $num%2 -eq 0 ]
+if [ $((num%2)) -eq 0 ]
 then
 echo "number $num is even"
 else
