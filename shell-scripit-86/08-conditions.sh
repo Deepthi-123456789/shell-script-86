@@ -21,5 +21,5 @@ if [ $num % 2 eq 0 ]
 then
 echo "number $num is even"
 else
-echo "number $num is odd
+echo "number $num is odd"
 fi
