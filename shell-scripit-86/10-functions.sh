@@ -12,10 +12,10 @@ validate()
 {
 if [ $1 -ne 0 ]
 then
-echo "installation of $2 is failuer"
+echo -e "installation of $2 is \e[31m failuer"
 exit 1
 else 
-echo "installation of $2 done"
+echo "installation of $2 successful"
 fi
 
 }
