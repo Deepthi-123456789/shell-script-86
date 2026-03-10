@@ -8,7 +8,8 @@ echo "not a root user"
 exit 1
 fi
 
-validate(){
+validate()
+{
 
 if [ $1 -ne 0 ]
 then
@@ -16,6 +17,7 @@ echo "installation of $2 is failuer"
 exit 1
 else 
 echo "installation of $2 done"
+fi
 
 }
 
