@@ -6,8 +6,6 @@ if [ $id -ne 0 ]
 then
 echo "not a root user"
 exit 1
-else
-echo "root user"
 fi
 
 dnf install mysql -y
