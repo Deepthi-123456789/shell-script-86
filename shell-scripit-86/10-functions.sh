@@ -10,7 +10,6 @@ fi
 
 validate()
 {
-
 if [ $1 -ne 0 ]
 then
 echo "installation of $2 is failuer"
@@ -22,7 +21,7 @@ fi
 }
 
 dnf install mysql -y
-validate() $? "mysql"
+validate $? "mysql"
 
 dnf install nginx -y
-validate() $? "nginx"
+validate $? "nginx"
