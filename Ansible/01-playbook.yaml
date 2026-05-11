@@ -1,0 +1,6 @@
+- name : my playbook
+  hosts : frontend  #which serve to connect
+  become : yes  #to get root access
+  tasks:
+  - name : ping
+    ansible.builtin.ping:
